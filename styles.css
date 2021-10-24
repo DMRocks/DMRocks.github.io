@@ -32,7 +32,6 @@ body {
     color: #ffffff;
     text-decoration: none;
     transition: color 0.5s;
-
 }
 .navagation-links :hover {
     border-bottom: 1px solid wheat;
