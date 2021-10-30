@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(137, 207, 240), rgb(64, 181, 138));
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navagation {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    color: white;
+    background-color: rgb(57, 62, 65);
+}
+.left-side {
+    display: flex;
+}
+.navagation > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.navagation-links {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navagation-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.navagation-links :hover {
+    border-bottom: 1px solid wheat;
+}
+.navagation-links a:hover {
+    color: wheat;
+}
+.main_content > div {
+    border: 102px;
+    padding: 20px;
+    background-color: rgb(57, 62, 65);
+    color: white;
+    background-clip: padding-box;
+
+}
