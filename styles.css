@@ -39,3 +39,11 @@ body {
 .navagation-links a:hover {
     color: wheat;
 }
+.main_content > div {
+    border: 102px;
+    padding: 20px;
+    background-color: rgb(57, 62, 65);
+    color: white;
+    background-clip: padding-box;
+
+}
