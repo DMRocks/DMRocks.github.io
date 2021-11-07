@@ -39,11 +39,19 @@ body {
 .navagation-links a:hover {
     color: wheat;
 }
-.main_content > div {
-    border: 102px;
-    padding: 20px;
-    background-color: rgb(57, 62, 65);
+.main_content {
     color: white;
-    background-clip: padding-box;
-
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text_boxes {
+    flex-direction: row;
+}
+.text_boxes > div{
+    background-color: rgb(57, 62, 65);
+    margin: 100px;
+    padding: 10px;
+    width: 80%;
+    
 }
